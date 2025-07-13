@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TutorialSample" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#2B44B1</item>
+        <item name="colorPrimaryDark">#1E3399</item>
+        <item name="colorAccent">#F7B500</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

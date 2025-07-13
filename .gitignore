@@ -1,0 +1,53 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Build directories
+build/
+*/build/
+**/build/
+
+# IDE files
+.idea/
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Android files
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Gradle files
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Local configuration file
+local.properties
+
+# Log files
+*.log
+
+# Android Studio captures folder
+captures/
+
+# Keystore files
+*.jks
+*.keystore

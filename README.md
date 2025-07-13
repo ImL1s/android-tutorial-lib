@@ -15,6 +15,10 @@ A powerful and highly customizable Android tutorial library that supports multip
 - 📱 **Compatibility** - Supports Android 5.0 (API 21) and above
 - 🚀 **Lightweight** - Small core library size with no redundant dependencies
 
+## Demo
+
+![Tutorial Demo](assets/tutorial-demo.gif)
+
 ## How It Works
 
 This library implements tutorial overlays through the following steps:

@@ -17,7 +17,7 @@ A powerful and highly customizable Android tutorial library that supports multip
 
 ## Demo
 
-![Tutorial Demo](assets/tutorial-demo.gif)
+![Tutorial Demonstration](./assets/tutorial-demo.gif)
 
 ## How It Works
 

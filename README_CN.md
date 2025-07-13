@@ -17,7 +17,7 @@
 
 ## 演示
 
-![Tutorial Demo](assets/tutorial-demo.gif)
+![Tutorial Demonstration](./assets/tutorial-demo.gif)
 
 ## 原理說明
 

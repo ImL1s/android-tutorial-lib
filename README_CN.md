@@ -1,4 +1,4 @@
-# Android 新手教程庫
+# Android 新手教程庫 [![JitPack](https://jitpack.io/v/ImL1s/android-tutorial-lib.svg)](https://jitpack.io/#ImL1s/android-tutorial-lib)
 
 [English](README.md) | 中文
 
@@ -30,21 +30,51 @@
 
 ### Gradle
 
+添加 JitPack 仓库配置：
+
 ```gradle
-dependencies {
-    implementation 'com.github.yourusername:android-tutorial-lib:1.0.0'
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
 }
 ```
 
+添加依赖项：
+
+```gradle
+dependencies {
+    implementation 'com.github.ImL1s:android-tutorial-lib:Tag'
+}
+```
+
+> **注意：** 请将 'Tag' 替换为实际的版本标签（如 '1.0.0'）或提交哈希。
+
 ### Maven
+
+添加 JitPack 仓库配置：
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+添加依赖项：
 
 ```xml
 <dependency>
-    <groupId>com.github.yourusername</groupId>
+    <groupId>com.github.ImL1s</groupId>
     <artifactId>android-tutorial-lib</artifactId>
-    <version>1.0.0</version>
+    <version>Tag</version>
 </dependency>
 ```
+
+> **注意：** 请将 'Tag' 替换为实际的版本标签（如 '1.0.0'）或提交哈希。
 
 ## 使用方法
 

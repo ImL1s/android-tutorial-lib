@@ -1,4 +1,4 @@
-# Android Tutorial Library
+# Android Tutorial Library [![JitPack](https://jitpack.io/v/ImL1s/android-tutorial-lib.svg)](https://jitpack.io/#ImL1s/android-tutorial-lib)
 
 English | [中文](README_CN.md)
 
@@ -30,21 +30,51 @@ This library implements tutorial overlays through the following steps:
 
 ### Gradle
 
+Add the JitPack repository to your project's build file:
+
 ```gradle
-dependencies {
-    implementation 'com.github.yourusername:android-tutorial-lib:1.0.0'
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
 }
 ```
 
+Add the dependency:
+
+```gradle
+dependencies {
+    implementation 'com.github.ImL1s:android-tutorial-lib:Tag'
+}
+```
+
+> **Note:** Replace 'Tag' with the actual version tag (e.g., '1.0.0') or commit hash.
+
 ### Maven
+
+Add the JitPack repository:
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+Add the dependency:
 
 ```xml
 <dependency>
-    <groupId>com.github.yourusername</groupId>
+    <groupId>com.github.ImL1s</groupId>
     <artifactId>android-tutorial-lib</artifactId>
-    <version>1.0.0</version>
+    <version>Tag</version>
 </dependency>
 ```
+
+> **Note:** Replace 'Tag' with the actual version tag (e.g., '1.0.0') or commit hash.
 
 ## Usage
 
